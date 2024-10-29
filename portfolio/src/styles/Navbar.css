@@ -13,6 +13,10 @@
   color: white;
 }
 
+.links :hover {
+  cursor: pointer;
+  color: #ffa500;
+}
 .navbar a {
   color: white;
   text-decoration: none;

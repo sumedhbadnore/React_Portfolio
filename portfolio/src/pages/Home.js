@@ -12,8 +12,10 @@ function Home() {
             Currently pursuing Master's in Computer Science from Stevens Institute
             of Technology with a passion in Web Development
           </p>
-          <LinkedIn />
-          <GitHub />
+          <a href="https://www.linkedin.com/in/sumedh-badnore"><LinkedIn /></a>
+          <a href="https://github.com/sumedhbadnore"><GitHub /></a>
+          
+          
         </div>
       </div>
       <div className="skills">

@@ -6,11 +6,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Instagram />
-        <LinkedIn />
-        <GitHub />
+        <a href="https://www.linkedin.com/in/sumedh-badnore"><LinkedIn /></a>
+        <a href="https://github.com/sumedhbadnore"><GitHub /></a>
+        <a href="https://www.instagram.com/sumedh_badnore?r=nametag"><Instagram /></a>
       </div>
-      <p> &copy; 2024 cs@sumedh.com</p>
+      <p> &copy; 2024 CS@sumedh.com</p>
     </div>
   );
 }

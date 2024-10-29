@@ -33,6 +33,10 @@
   margin: 5px;
   color: white;
 }
+.prompt a :hover{
+  cursor: pointer;
+  color: #FFA500;
+}
 
 .skills {
   font-size: 35px;
