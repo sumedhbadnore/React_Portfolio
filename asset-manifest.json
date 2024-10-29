@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.40f78d75.css",
-    "main.js": "/React_Portfolio/static/js/main.e93a6d5d.js",
-    "static/js/453.1407b060.chunk.js": "/React_Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/G4.jpg": "/React_Portfolio/static/media/G4.40562970c022d716316a.jpg",
-    "static/media/G2.jpg": "/React_Portfolio/static/media/G2.4b4143f44bd647247df7.jpg",
-    "static/media/G3.jpg": "/React_Portfolio/static/media/G3.1d6a1a06801aead91f4b.jpg",
-    "static/media/G6.jpg": "/React_Portfolio/static/media/G6.8367effa674120afedd8.jpg",
-    "static/media/G1.jpg": "/React_Portfolio/static/media/G1.90d483b06e2c39e3e171.jpg",
-    "static/media/G5.png": "/React_Portfolio/static/media/G5.095a91a88dc860e8f6a3.png",
-    "index.html": "/React_Portfolio/index.html",
-    "main.40f78d75.css.map": "/React_Portfolio/static/css/main.40f78d75.css.map",
-    "main.e93a6d5d.js.map": "/React_Portfolio/static/js/main.e93a6d5d.js.map",
-    "453.1407b060.chunk.js.map": "/React_Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/sumedhbadnore.github.io/React_Portfolio/static/css/main.40f78d75.css",
+    "main.js": "/sumedhbadnore.github.io/React_Portfolio/static/js/main.fe8676d6.js",
+    "static/js/453.1407b060.chunk.js": "/sumedhbadnore.github.io/React_Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/G4.jpg": "/sumedhbadnore.github.io/React_Portfolio/static/media/G4.40562970c022d716316a.jpg",
+    "static/media/G2.jpg": "/sumedhbadnore.github.io/React_Portfolio/static/media/G2.4b4143f44bd647247df7.jpg",
+    "static/media/G3.jpg": "/sumedhbadnore.github.io/React_Portfolio/static/media/G3.1d6a1a06801aead91f4b.jpg",
+    "static/media/G6.jpg": "/sumedhbadnore.github.io/React_Portfolio/static/media/G6.8367effa674120afedd8.jpg",
+    "static/media/G1.jpg": "/sumedhbadnore.github.io/React_Portfolio/static/media/G1.90d483b06e2c39e3e171.jpg",
+    "static/media/G5.png": "/sumedhbadnore.github.io/React_Portfolio/static/media/G5.095a91a88dc860e8f6a3.png",
+    "index.html": "/sumedhbadnore.github.io/React_Portfolio/index.html",
+    "main.40f78d75.css.map": "/sumedhbadnore.github.io/React_Portfolio/static/css/main.40f78d75.css.map",
+    "main.fe8676d6.js.map": "/sumedhbadnore.github.io/React_Portfolio/static/js/main.fe8676d6.js.map",
+    "453.1407b060.chunk.js.map": "/sumedhbadnore.github.io/React_Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40f78d75.css",
-    "static/js/main.e93a6d5d.js"
+    "static/js/main.fe8676d6.js"
   ]
 }
