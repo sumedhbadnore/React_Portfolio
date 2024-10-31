@@ -12,9 +12,9 @@
 }
 
 .socialMedia svg {
-  color: #6e57e0;
+  color: #3c3b42;
   margin: 20px;
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -22,8 +22,14 @@
   color: #c1b6fc;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 .footer p {
-  color: #6e57e0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #242329;
 }
 
 @media only screen and (max-width: 600px) {

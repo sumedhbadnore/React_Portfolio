@@ -1,4 +1,5 @@
 import React from "react";
+import ViewResume from "../components/ViewResume.js";
 import { LinkedIn, GitHub } from "@mui/icons-material";
 import "../styles/Home.css";
 
@@ -14,9 +15,8 @@ function Home() {
           </p>
           <a href="https://www.linkedin.com/in/sumedh-badnore"><LinkedIn /></a>
           <a href="https://github.com/sumedhbadnore"><GitHub /></a>
-          
-          
         </div>
+        <ViewResume/>
       </div>
       <div className="skills">
         <h1> Skills </h1>
