@@ -10,17 +10,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #5a43cb;
 }
 
 .links :hover {
   cursor: pointer;
-  color: #ffa500;
+  color: #5a43cb;
 }
 .navbar a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  margin: 20px;
+  margin: 25px;
   font-size: 25px;
 }
 
@@ -39,7 +39,7 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: white;
+  color: #5a43cb;
   cursor: pointer;
 }
 

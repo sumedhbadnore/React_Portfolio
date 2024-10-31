@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, I'm Sumedh!</h2>
+        <h2>Hi, I'm <strong className="name">Sumedh!</strong></h2>
         <div className="prompt">
           <p>
             Currently pursuing Master's in Computer Science from Stevens Institute
@@ -24,24 +24,24 @@ function Home() {
           <li className="item">
             <h2> Languages </h2>
             <span>
-              {" "}
-              Java, C++, Python, JavaScript, TypeScript, HTML5/CSS3, Node.js, C#{" "}
+              
+              Java, C++, Python, JavaScript, TypeScript, HTML5/CSS3, Node.js, C#
             </span>
           </li>
           <li className="item">
             <h2> Libraries and Framworks </h2>
             <span>
-              {" "}
+              
               Node.js, Flask, Express.js, React, Angular, Bootstrap,
-              Scikit-Learn, Pandas, Keras, PyTorch{" "}
+              Scikit-Learn, Pandas, Keras, PyTorch
             </span>
           </li>
           <li className="item">
             <h2> Tools and Technology </h2>
             <span>
-              {" "}
+              
               Git, GitHub, AWS, Google Cloud, MATLAB, Postman, Microsoft Office,
-              Agile (Scrum){" "}
+              Agile (Scrum)
             </span>
           </li>
           <li className="item">
