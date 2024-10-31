@@ -7,6 +7,7 @@ import { Contrast } from "@mui/icons-material";
 function Navbar({toggleTheme}) {
   const [expandNavbar, setExpandNavbar] = useState(false);
   const location = useLocation();
+
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
