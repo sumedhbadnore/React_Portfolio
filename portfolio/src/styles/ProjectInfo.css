@@ -1,3 +1,5 @@
+/* projectinfo.css */
+
 .project {
   width: 100%;
   height: calc(100vh - 100px);
@@ -7,25 +9,43 @@
   flex-direction: column;
 }
 
-.project h1 {
-  margin-top: 50px;
-  color: #3e497a;
-  font-size: 35px;
+/* Light Mode Styles */
+body.light .project h1 {
+  color: #3e497a; /* Light mode heading color */
 }
+
+body.light .project p {
+  font-size: 20px;
+  color: #5a43cb; /* Light mode paragraph color */
+}
+
+body.light .project svg {
+  font-size: 60px;
+  color: #6e57e0; /* Light mode icon color */
+}
+
+/* Dark Mode Styles */
+body.dark .project h1 {
+  color: #ffffff; /* Dark mode heading color */
+}
+
+body.dark .project p {
+  font-size: 20px;
+  color: #c1b6fc; /* Dark mode paragraph color */
+}
+
+body.dark .project svg {
+  font-size: 60px;
+  color: #a9a9a9; /* Dark mode icon color */
+}
+
+/* Project Image */
 .project img {
   width: 600px;
   border-radius: 10px;
 }
 
-.project p {
-  font-size: 20px;
-  color: #5A43CB;
+/* General Styles */
+.project h1 {
+  margin-top: 50px;
 }
-
-.project svg {
-  font-size: 60px;
-  color: #6E57E0;
-}
-
-
-

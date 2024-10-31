@@ -1,10 +1,108 @@
+/* home.css */
+
 .home {
   width: 100%;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  color: #0a0a0a;
 }
 
+/* Light Mode Styles */
+body.light .home {
+  color: #0a0a0a; /* Light mode text color */
+}
+
+body.light .about {
+  color: #2e2c2c; /* Light mode about section color */
+}
+
+body.light .about h2 {
+  font-size: 80px;
+  color: #242329; /* Light mode heading color */
+}
+
+body.light .name {
+  font-size: 80px;
+  color: #5a43cb; /* Light mode name color */
+}
+
+body.light .about .prompt {
+  color: #0a0a0a; /* Light mode prompt text color */
+}
+
+body.light .prompt svg {
+  color: #3c3b42; /* Light mode icon color */
+}
+
+body.light .skills {
+  color: #242329; /* Light mode skills text color */
+}
+
+body.light .skills h1 {
+  color: #5a43cb; /* Light mode skills heading color */
+}
+
+body.light .skills h2 {
+  color: #242329; /* Light mode skills subheading color */
+}
+
+body.light .list span {
+  color: #000000; /* Light mode list item color */
+}
+
+body.light .prompt a:hover {
+  cursor: pointer;
+  color: #6e57e0; /* Light mode link hover color */
+}
+
+/* Dark Mode Styles */
+body.dark .home {
+  color: #f0f0f0; /* Dark mode text color */
+}
+
+body.dark .about {
+  color: #f0f0f0; /* Dark mode about section color */
+}
+
+body.dark .about h2 {
+  font-size: 80px;
+  color: #f0f0f0; /* Dark mode heading color */
+}
+
+body.dark .name {
+  font-size: 80px;
+  color: #c1b6fc; /* Dark mode name color */
+}
+
+body.dark .about .prompt {
+  color: #f0f0f0; /* Dark mode prompt text color */
+}
+
+body.dark .prompt svg {
+  color: #ffffff; /* Dark mode icon color */
+}
+
+body.dark .skills {
+  color: #f0f0f0; /* Dark mode skills text color */
+}
+
+body.dark .skills h1 {
+  color: #c1b6fc; /* Dark mode skills heading color */
+}
+
+body.dark .skills h2 {
+  color: #f0f0f0; /* Dark mode skills subheading color */
+}
+
+body.dark .list span {
+  color: #ffffff; /* Dark mode list item color */
+}
+
+body.dark .prompt a:hover {
+  cursor: pointer;
+  color: #6e57e0; /* Dark mode link hover color */
+}
+
+/* About Section */
 .about {
   width: 100%;
   height: calc(100vh - 100px);
@@ -13,38 +111,21 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff;
-  color: #2e2c2c;
-}
-
-.about h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 80px;
-  color: #242329;
-  height: 50px;
-}
-
-.name {
-  color: #5a43cb;
 }
 
 .about .prompt {
   width: 60%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 40px;
   margin: 5px;
-  color: #3c3b42;
-}
-.prompt a :hover {
-  cursor: pointer;
-  color: #6e57e0;
 }
 
+/* Skills Section */
 .skills {
   font-size: 25px;
-  color: #242329;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -54,13 +135,13 @@
 
 .skills h1 {
   font-size: 65px;
-  color: #5a43cb;
 }
 
 .skills h2 {
-  color: #242329;
+  color: #242329; /* Will be overridden in dark mode */
 }
 
+/* List Styles */
 .skills .list {
   list-style: none;
   width: 60%;
@@ -70,6 +151,7 @@
   font-size: 20px;
 }
 
+/* Responsive Design */
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;

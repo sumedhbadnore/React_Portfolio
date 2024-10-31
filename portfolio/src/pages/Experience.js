@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { School, Work, Web } from "@mui/icons-material";
+import '../styles/Experience.css';
 
 function Experience() {
   return (

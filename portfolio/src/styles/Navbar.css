@@ -1,7 +1,11 @@
+/* navbar.css */
+:root {
+  --hover-color: #5a43cb;
+}
+/* Common Styles */
 .navbar {
   width: 100%;
   height: 100px;
-  background: #ffffff;
 }
 
 .links {
@@ -10,20 +14,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #5a43cb;
 }
 
-.links :hover {
+.links:hover {
   cursor: pointer;
-  color: #5a43cb;
+  color: var(--hover-color);
 }
+
+.links button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .navbar a {
-  color: rgb(0, 0, 0);
   text-decoration: none;
   margin: 25px;
   font-size: 25px;
 }
 
+/* Toggle Button Styles */
 .toggleButton {
   width: 100%;
   height: 100px;
@@ -35,11 +45,12 @@
 .toggleButton svg {
   font-size: 50px;
 }
+
 .toggleButton button {
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: #5a43cb;
+  color: var(--toggle-button-color);
   cursor: pointer;
 }
 
@@ -58,6 +69,7 @@
   text-align: center;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 900px) {
   .navbar a {
     width: 70px;
@@ -89,4 +101,34 @@
   #open .links {
     flex-direction: row;
   }
+}
+
+/* Light Mode */
+body.light .navbar a {
+  color: #000000; /* Light mode link color */
+}
+
+body.light .navbar a:hover {
+  color: #5a43cb; /* Light mode link color */
+}
+
+body.light .toggleButton button {
+  color: #5a43cb; /* Light mode button color */
+}
+
+/* Dark Mode */
+body.dark .navbar a {
+  color: #ffffff; /* Dark mode link color */
+}
+
+body.dark .navbar a:hover {
+  color: #5a43cb; /* Dark mode link color */
+}
+
+body.dark .toggleButton button {
+  color: #5a43cb; /* Dark mode button color */
+}
+
+body.dark .links button {
+  color: #ffffff;
 }
